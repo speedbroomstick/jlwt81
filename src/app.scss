@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(200, 200, 200);
+}
+
+.wrapper {
+    display: flex;
+    a {
+        width: 20vw;
+        height: 5vw;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 2vw;
+        font-size: 2vw;
+        color: white;
+        background-color: rgb(180, 180, 180);
+        border: 1px solid black;
+        border-radius: 5vw;
+    }
+    a:hover{
+        background-color: rgb(160,160,160);
+    }
+}
